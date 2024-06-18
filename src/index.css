@@ -35,3 +35,25 @@ button {
 	color: white;
 	transition: border-color 0.25s;
 }
+input[type='text'],
+textarea {
+	padding: 1rem 1.5rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type='text']:focus,
+textarea:focus {
+	outline: none;
+	border-color: var(--prim-color);
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Стили для текстовых областей */
+textarea {
+	resize: vertical;
+	min-height: 120px;
+}
