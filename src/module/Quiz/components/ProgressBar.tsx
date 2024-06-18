@@ -20,7 +20,7 @@ export function ProgressBar({
                     key={`ProgressBar__${index}`}
                     style={{
                         flex: 1,
-                        height: '5px',
+                        height: '8px',
                         marginRight: '5px',
                         backgroundColor:
                             index === currentQuestionIndex
